@@ -4,7 +4,7 @@ namespace GustavoSantarosa\ServiceBasicsExtension\Provider;
 
 use Illuminate\Support\ServiceProvider;
 
-class ServiceBasicsExtensionProvider extends ServiceProvider
+class ModelBasicsExtensionProvider extends ServiceProvider
 {
     /**
      * Register services.
