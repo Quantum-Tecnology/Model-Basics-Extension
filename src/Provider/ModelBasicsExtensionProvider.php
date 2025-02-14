@@ -1,6 +1,6 @@
 <?php
 
-namespace GustavoSantarosa\ServiceBasicsExtension\Provider;
+namespace GustavoSantarosa\ModelBasicsExtension\Provider;
 
 use Illuminate\Support\ServiceProvider;
 
