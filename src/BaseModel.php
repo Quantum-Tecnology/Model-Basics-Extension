@@ -1,13 +1,13 @@
 <?php
 
-namespace GustavoSantarosa\ModelBasicsExtension\;
+namespace GustavoSantarosa\ModelBasicsExtension;
 
 use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Model;
+use GustavoSantarosa\ModelBasicsExtension\Traits\Filter;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
-use GustavoSantarosa\ModelBasicsExtension\Traits\Filter;
 
 /**
  * Model Base.
