@@ -1,7 +1,7 @@
-<h3 align="center">Service-Basics-Extension for Laravel</h3>
+<h3 align="center">Model-Basics-Extension for Laravel</h3>
 
 ## 🧐 Sobre <a name = "about"></a>
-Este pacote inclui uma classe de extensão desacoplada que contem os principais metodos para um crud dentro de service:
+Este pacote inclui uma classe de extensão desacoplada que contem os principais metodos para um crud dentro de model:
   - index;
   - show;
   - store;
@@ -15,10 +15,10 @@ Sempre que possivel ele sera atualizado, e esta aberto para a comunidade sugerir
 Para utilizar a classe, basta instalar ela utilizando o comando do composer:
 
 ```
-composer require gustavosantarosa/service-basics-extension
+composer require gustavosantarosa/model-basics-extension
 ```
 
-extender ela na sua classe de service dentro de app/services e com isso, o seu crud ja vai estar finalizado e pronto para uso.
+extender ela na sua classe de model dentro de app/models e com isso, o seu crud ja vai estar finalizado e pronto para uso.
 
 Pronto, ja é para estar funcionando.
 
@@ -26,7 +26,7 @@ Pronto, ja é para estar funcionando.
 
 Nele existem algumas ferramentas uteis.
 
-- BaseService:
+- BaseModel:
   - Um index que lista todo o conteudo dentro da model inforada.
   - Um show que apresenta o id informado e caso de falha, apresenta uma exception que pode ser customizada.
   - Utilizando o pacote [Validate-Trait](https://packagist.org/packages/gustavosantarosa/validate-trait) o store captura os parametros validados e persiste no banco de dados.
@@ -37,7 +37,7 @@ Nele existem algumas ferramentas uteis.
 
 - [Enum-Basics-Extension](https://packagist.org/packages/gustavosantarosa/enum-basics-extension) - Utilizado para auxiliar nas Classes de Enums;
 - [SetSchema-Trait](https://packagist.org/packages/gustavosantarosa/setschema-trait-postgresql) - Suprir a necessidade de setar os schemas automaticamente do PostgreSQL;
-- [Validate-Trait](https://packagist.org/packages/gustavosantarosa/validate-trait) - Bindar os Requests automaticamente de acordo com o caminho do Service Pattern;
+- [Validate-Trait](https://packagist.org/packages/gustavosantarosa/validate-trait) - Bindar os Requests automaticamente de acordo com o caminho do Model Pattern;
 - [PerPage-Trait](https://packagist.org/packages/gustavosantarosa/perpage-trait) - Padronizar a quantidade do paginate na api inteira e definir uma quantidade máxima;
 - [Handler-Basics-Extension](https://packagist.org/packages/gustavosantarosa/handler-basics-extension) - Contem tratamento das principais exceções do laravel, e contem varios responses para lhe auxiliar;
 

@@ -1,8 +1,8 @@
 {
-  "name": "gustavosantarosa/service-basics-extension",
+  "name": "gustavosantarosa/model-basics-extension",
   "license": "MIT",
   "homepage": "http://www.gustavosantarosa.esy.es/",
-  "description": "Service Basics Extension",
+  "description": "Model Basics Extension",
   "require": {
     "php": "^8.0",
     "laravel/framework": "^10.0 | ^11.0",
@@ -12,7 +12,7 @@
   },
   "autoload": {
     "psr-4": {
-      "GustavoSantarosa\\ServiceBasicsExtension\\": "src/"
+      "GustavoSantarosa\\ModelBasicsExtension\\": "src/"
     }
   },
   "authors": [
@@ -29,7 +29,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "GustavoSantarosa\\ServiceBasicsExtension\\Provider\\ServiceBasicsExtensionProvider"
+        "GustavoSantarosa\\ModelBasicsExtension\\Provider\\ModelBasicsExtensionProvider"
       ]
     }
   },
