@@ -1,6 +1,6 @@
 <?php
 
-namespace GustavoSantarosa\ModelBasicsExtension\;
+namespace GustavoSantarosa\ModelBasicsExtension;
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
