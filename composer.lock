@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e3f91ef4f2c1064303651dde4f15d81",
+    "content-hash": "7a82ef823d9be9015b510c7e0d4e8d12",
     "packages": [
         {
             "name": "brick/math",
@@ -697,16 +697,16 @@
         },
         {
             "name": "gustavosantarosa/perpage-trait",
-            "version": "1.5.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GustavoSantarosa/PerPage-Trait.git",
-                "reference": "1597953f98821519073f16b6835b736cd283b51d"
+                "reference": "7148b15ff9604ec582c30c8578c2374d3da619a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GustavoSantarosa/PerPage-Trait/zipball/1597953f98821519073f16b6835b736cd283b51d",
-                "reference": "1597953f98821519073f16b6835b736cd283b51d",
+                "url": "https://api.github.com/repos/GustavoSantarosa/PerPage-Trait/zipball/7148b15ff9604ec582c30c8578c2374d3da619a6",
+                "reference": "7148b15ff9604ec582c30c8578c2374d3da619a6",
                 "shasum": ""
             },
             "require": {
@@ -717,13 +717,13 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "GustavoSantarosa\\PerPageTrait\\Provider\\PerPageTraitProvider"
+                        "QuantumCode\\PerPageTrait\\Provider\\PerPageTraitProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "GustavoSantarosa\\PerPageTrait\\": "src/"
+                    "QuantumCode\\PerPageTrait\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -742,9 +742,9 @@
             "support": {
                 "email": "gustavo-computacao@hotmail.com",
                 "issues": "https://github.com/GustavoSantarosa/PerPage-Trait/issues",
-                "source": "https://github.com/GustavoSantarosa/PerPage-Trait/tree/1.5.1"
+                "source": "https://github.com/GustavoSantarosa/PerPage-Trait/tree/2.0.0"
             },
-            "time": "2024-10-11T20:32:28+00:00"
+            "time": "2025-02-19T01:10:45+00:00"
         },
         {
             "name": "gustavosantarosa/validate-trait",
