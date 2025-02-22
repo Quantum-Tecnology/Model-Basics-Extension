@@ -1,9 +1,9 @@
 <?php
 
-namespace GustavoSantarosa\ModelBasicsExtension;
+namespace QuantumTecnology\ModelBasicsExtension;
 
 use Carbon\Carbon;
-use GustavoSantarosa\ModelBasicsExtension\Traits\Filter;
+use QuantumTecnology\ModelBasicsExtension\Traits\Filter;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;

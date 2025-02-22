@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace GustavoSantarosa\ModelBasicsExtension\Traits;
+namespace QuantumTecnology\ModelBasicsExtension\Traits;
 
 use Illuminate\Database\Eloquent\Casts\Attribute;
 

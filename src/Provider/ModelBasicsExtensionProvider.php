@@ -1,6 +1,6 @@
 <?php
 
-namespace GustavoSantarosa\ModelBasicsExtension\Provider;
+namespace QuantumTecnology\ModelBasicsExtension\Provider;
 
 use Illuminate\Support\ServiceProvider;
 

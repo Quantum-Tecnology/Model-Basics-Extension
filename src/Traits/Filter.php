@@ -1,6 +1,6 @@
 <?php
 
-namespace GustavoSantarosa\ModelBasicsExtension\Traits;
+namespace QuantumTecnology\ModelBasicsExtension\Traits;
 
 use Illuminate\Support\Collection;
 

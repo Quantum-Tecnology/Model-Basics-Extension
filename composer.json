@@ -1,16 +1,16 @@
 {
-  "name": "gustavosantarosa/model-basics-extension",
+  "name": "quantumtecnology/model-basics-extension",
   "license": "MIT",
-  "homepage": "http://www.gustavosantarosa.esy.es/",
+  "homepage": "http://www.quantumtecnology.esy.es/",
   "description": "Model Basics Extension",
   "require": {
     "php": "^8.0",
     "laravel/framework": "^10.0 | ^11.0",
-    "gustavosantarosa/setschema-trait-postgresql": "^1.1"
+    "quantumtecnology/setschema-trait-postgresql": "^1.1"
   },
   "autoload": {
     "psr-4": {
-      "GustavoSantarosa\\ModelBasicsExtension\\": "src/"
+      "QuantumTecnology\\ModelBasicsExtension\\": "src/"
     }
   },
   "authors": [
@@ -27,7 +27,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "GustavoSantarosa\\ModelBasicsExtension\\Provider\\ModelBasicsExtensionProvider"
+        "QuantumTecnology\\ModelBasicsExtension\\Provider\\ModelBasicsExtensionProvider"
       ]
     }
   },
