@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90ce11f9063f5f0b4c2b41c32bb00c1c",
+    "content-hash": "64e6f7a15fdc5f0f3589a31fa158715a",
     "packages": [
         {
             "name": "brick/math",
@@ -2873,16 +2873,16 @@
         },
         {
             "name": "quantumtecnology/setschema-trait-postgresql",
-            "version": "1.1.0",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Quantum-Tecnology/SetSchema-Trait-Postgresql.git",
-                "reference": "351005b0e8a5740830f656c1eeda5220eabb5fdc"
+                "reference": "3851961444bf2380a32bb8639e2686d9852e74f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Quantum-Tecnology/SetSchema-Trait-Postgresql/zipball/351005b0e8a5740830f656c1eeda5220eabb5fdc",
-                "reference": "351005b0e8a5740830f656c1eeda5220eabb5fdc",
+                "url": "https://api.github.com/repos/Quantum-Tecnology/SetSchema-Trait-Postgresql/zipball/3851961444bf2380a32bb8639e2686d9852e74f9",
+                "reference": "3851961444bf2380a32bb8639e2686d9852e74f9",
                 "shasum": ""
             },
             "require": {
@@ -2893,13 +2893,13 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "GustavoSantarosa\\SetSchemaTrait\\Provider\\SetSchemaTraitProvider"
+                        "QuantumTecnology\\SetSchemaTrait\\Provider\\SetSchemaTraitProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "GustavoSantarosa\\SetSchemaTrait\\": "src/"
+                    "QuantumTecnology\\SetSchemaTrait\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2918,9 +2918,9 @@
             "support": {
                 "email": "gustavo-computacao@hotmail.com",
                 "issues": "https://github.com/Quantum-Tecnology/SetSchema-Trait-Postgresql/issues",
-                "source": "https://github.com/Quantum-Tecnology/SetSchema-Trait-Postgresql/tree/1.1.0"
+                "source": "https://github.com/Quantum-Tecnology/SetSchema-Trait-Postgresql/tree/2.0.4"
             },
-            "time": "2024-03-21T01:12:50+00:00"
+            "time": "2025-02-23T15:33:29+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
