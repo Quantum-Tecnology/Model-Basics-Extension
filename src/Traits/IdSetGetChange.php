@@ -11,7 +11,7 @@ trait IdSetGetChange
     protected function id(): Attribute
     {
         return Attribute::make(
-            get: fn () => $this->attributes[$this->getKeyName()],
+            get: fn () => $this->attributes[$this->getKeyName()] ?? null,
             set: fn ($value) => $this->attributes[$this->getKeyName()] = $value,
         );
     }
