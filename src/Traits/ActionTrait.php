@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace QuantumTecnology\ModelBasicsExtension\Traits;
 
 use Illuminate\Database\Eloquent\Casts\Attribute;
+use use Illuminate\Http\Response;
 
 trait ActionTrait
 {
@@ -13,7 +14,7 @@ trait ActionTrait
         parent::updating(function ($model) {
             abort_unless(
                 $model->actions->can_update,
-                403,
+                Response::HTTP_FORBIDDEN,
                 __('It is not possible to update.')
             );
         });
@@ -21,7 +22,7 @@ trait ActionTrait
         parent::deleting(function ($model) {
             abort_unless(
                 $model->actions->can_delete,
-                403,
+                Response::HTTP_FORBIDDEN,
                 __('It is not possible to delete')
             );
         });
