@@ -1,5 +1,15 @@
 # CHANGE LOG
 
+## V2.2.0 (18/03/2025)
+
+# PT-BR
+
+- Adicionado verificação de bool, parametro para ignorar params e habilitar filtros que venham da requisição @GustavoSantarosa
+
+# EN
+
+- Added boolean verification, parameter to ignore params, and enable filters from the request @GustavoSantarosa
+
 ## V2.1.0 (17/03/2025)
 
 # PT-BR
