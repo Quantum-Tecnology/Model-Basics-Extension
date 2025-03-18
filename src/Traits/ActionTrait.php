@@ -23,7 +23,7 @@ trait ActionTrait
             abort_unless(
                 $model->actions->can_delete,
                 Response::HTTP_FORBIDDEN,
-                __('It is not possible to delete')
+                __('It is not possible to delete.')
             );
         });
     }
