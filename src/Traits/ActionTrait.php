@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace QuantumTecnology\ModelBasicsExtension\Traits;
 
 use Illuminate\Database\Eloquent\Casts\Attribute;
-use use Illuminate\Http\Response;
+use Illuminate\Http\Response;
 
 trait ActionTrait
 {
