@@ -5,10 +5,12 @@
 # PT-BR
 
 - Movido a trait setSchema de seu repo para este pacote de models @GustavoSantarosa
+- Criado uma trait para setar metadados na classe, para facilitar permissoes @bhcosta90
 
 # EN
 
 - Moved the setSchema trait from its repository to this models package @GustavoSantarosa
+- Created a trait to set metadata in the class, to facilitate permissions @bhcosta90
 
 ## V2.0.6 (10/03/2025)
 
