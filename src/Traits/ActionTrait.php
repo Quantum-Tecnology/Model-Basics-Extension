@@ -13,7 +13,7 @@ trait ActionTrait
     {
         parent::updating(function ($model) {
             abort_unless(
-                $model->actions->can_update,
+                $model->actions?->can_update,
                 Response::HTTP_FORBIDDEN,
                 __('It is not possible to update.')
             );
@@ -21,7 +21,7 @@ trait ActionTrait
 
         parent::deleting(function ($model) {
             abort_unless(
-                $model->actions->can_delete,
+                $model->action?->can_delete,
                 Response::HTTP_FORBIDDEN,
                 __('It is not possible to delete.')
             );
@@ -30,10 +30,7 @@ trait ActionTrait
 
     public function actions(): Attribute
     {
-        return Attribute::get(fn () => collect($this->setActions() + [
-            'can_update' => true,
-            'can_delete' => true,
-        ]));
+        return Attribute::get(fn () => (object) $this->setActions());
     }
 
     protected function setActions(): array

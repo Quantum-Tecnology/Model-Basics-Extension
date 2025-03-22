@@ -1,14 +1,24 @@
 # CHANGE LOG
 
+## V2.2.2 (22/03/2025)
+
+# PT-BR
+
+- Removido valores defaults, e ajustado as regras para update e deleting quando nulo @GustavoSantarosa
+
+# EN
+
+- Removed default values, and adjusted the rules for update and delete when null @GustavoSantarosa
+
 ## V2.2.1 (18/03/2025)
 
 # PT-BR
 
-- Acrescentado uma verficação de permissão na trait actions, caso o core do app nao o fizer @bhcosta90 [1](https://github.com/Quantum-Tecnology/Model-Basics-Extension/pull/1)
+- Acrescentado uma verficação de permissão na trait actions, caso o core do app nao o fizer @bhcosta90 in https://github.com/Quantum-Tecnology/Model-Basics-Extension/pull/1
 
 # EN
 
-- Added a permission check in the actions trait, in case the app core does not do it @bhcosta90 in [1](https://github.com/Quantum-Tecnology/Model-Basics-Extension/pull/1)
+- Added a permission check in the actions trait, in case the app core does not do it @bhcosta90 in https://github.com/Quantum-Tecnology/Model-Basics-Extension/pull/1
 
 ## V2.2.0 (18/03/2025)
 
