@@ -21,7 +21,7 @@ trait ActionTrait
 
         parent::deleting(function ($model) {
             abort_unless(
-                $model->action?->can_delete,
+                $model->actions?->can_delete,
                 Response::HTTP_FORBIDDEN,
                 __('It is not possible to delete.')
             );

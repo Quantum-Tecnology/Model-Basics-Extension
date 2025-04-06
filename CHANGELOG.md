@@ -4,6 +4,16 @@
 
 # PT-BR
 
+- Ajustado uma variavel que estava ocasionando bug no delete. @GustavoSantarosa
+
+# EN
+
+- Adjusted a variable that was causing a bug in delete. @GustavoSantarosa
+
+## V2.2.2 (22/03/2025)
+
+# PT-BR
+
 - Removido valores defaults, e ajustado as regras para update e deleting quando nulo @GustavoSantarosa
 
 # EN
