@@ -35,6 +35,6 @@ trait Filter
             });
         }
 
-        return count($collect) > 0 ? $collect : false;
+        return count($collect) > 0 ? $collect->unique() : false;
     }
 }

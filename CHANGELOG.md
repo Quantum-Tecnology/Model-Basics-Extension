@@ -1,5 +1,15 @@
 # CHANGE LOG
 
+## V2.2.4 (30/05/2025)
+
+# PT-BR
+
+- Ajustado um problema de duplicação, quando era informado um array por params, e o mesmo array era informado no body. @GustavoSantarosa
+
+# EN
+
+- Adjusted a duplication issue when an array was provided in the params, and the same array was provided in the body. @GustavoSantarosa
+
 ## V2.2.3 (06/04/2025)
 
 # PT-BR
