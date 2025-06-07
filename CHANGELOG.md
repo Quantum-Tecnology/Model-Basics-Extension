@@ -5,10 +5,12 @@
 # PT-BR
 
 - Criado um observer para remover cache de acordo com a model observada. @GustavoSantarosa
+- Observando que nao existia uma forma generica de salvar cache custom em database, foi criado um helper que faz isso de forma generica. @GustavoSantarosa
 
 # EN
 
 - Created an observer to remove cache according to the observed model. @GustavoSantarosa
+- Observing that there was no generic way to save custom cache in the database, a helper was created to do this generically. @GustavoSantarosa
 
 ## V2.2.4 (30/05/2025)
 
