@@ -1,5 +1,15 @@
 # CHANGE LOG
 
+## V2.3.0 (07/06/2025)
+
+# PT-BR
+
+- Criado um observer para remover cache de acordo com a model observada. @GustavoSantarosa
+
+# EN
+
+- Created an observer to remove cache according to the observed model. @GustavoSantarosa
+
 ## V2.2.4 (30/05/2025)
 
 # PT-BR
