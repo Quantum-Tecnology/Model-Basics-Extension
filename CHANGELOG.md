@@ -1,5 +1,18 @@
 # CHANGE LOG
 
+## V2.3.1 (07/06/2025)
+
+# PT-BR
+
+- Criado um observer para disparar events no laravel. @GustavoSantarosa
+
+# EN
+
+- Created an observer to remove cache according to the observed model. @GustavoSantarosa
+- Observing that there was no generic way to save custom cache in the database, a helper was created to do this generically. @GustavoSantarosa
+- Started the outline of an observer that triggers notifications. @GustavoSantarosa
+- Created an observer to trigger events in Laravel. @GustavoSantarosa
+
 ## V2.3.0 (07/06/2025)
 
 # PT-BR
