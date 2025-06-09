@@ -1,5 +1,15 @@
 # CHANGE LOG
 
+## V2.3.1 (09/06/2025)
+
+# PT-BR
+
+- Finalizado um helper para cache custom, tanto para salvar quanto para remover. @GustavoSantarosa
+
+# EN
+
+- Completed a helper for custom cache, both for saving and removing. @GustavoSantarosa
+
 ## V2.3.0 (07/06/2025)
 
 # PT-BR
