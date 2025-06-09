@@ -54,12 +54,6 @@ if (!function_exists('rememberCustomCache')) {
             $callable,
         );
     }
-
-    return cache()->remember(
-        $key,
-        $time,
-        $callable,
-    );
 }
 
 if(!function_exists('deleteCustomCache')) {

@@ -1,5 +1,15 @@
 # CHANGE LOG
 
+## V2.3.3 (09/06/2025)
+
+# PT-BR
+
+- Ajustado um problema pendente. @GustavoSantarosa
+
+# EN
+
+- Adjusted a pending issue. @GustavoSantarosa
+
 ## V2.3.2 (09/06/2025)
 
 # PT-BR
