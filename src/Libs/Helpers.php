@@ -15,13 +15,13 @@ if (!function_exists('rememberCustomCache')) {
         string $customName = 'custom_cache',
         string $separator = ':',
     ): int {
-
         if(function_exists('request') && request()->has('filter')) {
             $filters = array_merge(
                 $filters,
                 request('filter', [])
             );
         }
+
         /*
          * If the key already exists, return it.
          */
@@ -75,9 +75,7 @@ if(!function_exists('deleteCustomCache')) {
             $key
         );
 
-        $keys = cache()->get($key, []);
-
-        collect($keys)
+        collect(cache()->get($key, []))
             ->each(function ($item) {
                 cache()->delete($item);
             });

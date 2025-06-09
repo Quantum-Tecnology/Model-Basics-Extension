@@ -1,5 +1,15 @@
 # CHANGE LOG
 
+## V2.3.3 (09/06/2025)
+
+# PT-BR
+
+- Feito melhorias no codigo e atualizado a vendor. @GustavoSantarosa
+
+# EN
+
+- Made improvements to the code and updated the vendor. @GustavoSantarosa
+
 ## V2.3.2 (09/06/2025)
 
 # PT-BR
