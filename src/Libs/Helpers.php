@@ -14,7 +14,7 @@ if (!function_exists('rememberCustomCache')) {
         int $time = 60 * 60 * 24,
         string $customName = 'custom_cache',
         string $separator = ':',
-    ): int {
+    ): mixed {
         if(function_exists('request') && request()->has('filter')) {
             $filters = array_merge(
                 $filters,
