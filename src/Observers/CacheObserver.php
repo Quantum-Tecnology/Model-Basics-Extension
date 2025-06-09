@@ -39,7 +39,10 @@ class CacheObserver
     protected function deleteCache(array $keys): void
     {
         foreach ($keys as $key) {
-            cache()->delete($key);
+            if (enum_exists(get_class($key))) {
+                $key = $key->value;
+            }
+            deleteCustomCache($key);
         }
     }
 }
