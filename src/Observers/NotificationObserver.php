@@ -4,10 +4,11 @@ namespace QuantumTecnology\ModelBasicsExtension\Observers;
 
 use App\Events\ModelRestore;
 use App\Events\ModelUpdated;
+use Illuminate\Contracts\Events\ShouldHandleEventsAfterCommit;
 use Illuminate\Database\Eloquent\Model;
 use QuantumTecnology\ValidateTrait\Data;
 
-class NotificationObserver
+class NotificationObserver implements ShouldHandleEventsAfterCommit
 {
     public function deleted(Model $model)
     {

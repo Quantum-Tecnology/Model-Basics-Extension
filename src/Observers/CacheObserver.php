@@ -4,10 +4,11 @@ declare(strict_types = 1);
 
 namespace QuantumTecnology\ModelBasicsExtension\Observers;
 
+use Illuminate\Contracts\Events\ShouldHandleEventsAfterCommit;
 use Illuminate\Database\Eloquent\Model;
 use ReflectionClass;
 
-class CacheObserver
+class CacheObserver implements ShouldHandleEventsAfterCommit
 {
     public function deleted(Model $model): void
     {
